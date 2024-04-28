@@ -1,3 +1,7 @@
+section#header_top, section#header_bottom {
+    width: 100%;
+}
+
 section#header_top div {
     width: 33.33%;
     text-align: center;

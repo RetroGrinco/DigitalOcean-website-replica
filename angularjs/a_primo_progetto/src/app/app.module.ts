@@ -9,11 +9,14 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatCardModule} from '@angular/material/card';
+import { ListCardComponent } from './list-card/list-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ListCardComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +25,7 @@ import {MatMenuModule} from '@angular/material/menu';
     MatToolbarModule,
     FontAwesomeModule,
     MatMenuModule,
+    MatCardModule,
   ],
   providers: [
     provideClientHydration(),
