@@ -1,3 +1,12 @@
+div#buttons {
+    width: 100;
+}
+
+div#buttons button {
+    padding: 1em 5%;
+    margin: 2em 10%;
+}
+
 .myCard {
     max-width: 400px;
 }
@@ -7,7 +16,7 @@
     background-size: cover;
 }
 
-section#listCard {
+section#listCard div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

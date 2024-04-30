@@ -1,19 +1,40 @@
 <section id="listCard">
-    <mat-card class="myCard" *ngFor="let dog of dogs; index as i">
-        <mat-card-header>
-            <div mat-card-avatar class="example-header-image"></div>
-            <mat-card-title>{{dogs[i].name}}</mat-card-title>
-            <mat-card-subtitle>{{dogs[i].race}}</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-        <mat-card-content>
-            <p>
-                {{dogs[i].description}}
-            </p>
-        </mat-card-content>
-        <mat-card-actions>
-            <button mat-button>LIKE</button>
-            <button mat-button>SHARE</button>
-        </mat-card-actions>
-    </mat-card>
+    <div>
+        <mat-card class="myCard" *ngFor="let dog of dogs; index as i">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{dogs[i].name}}</mat-card-title>
+                <mat-card-subtitle>{{dogs[i].race}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+                    {{dogs[i].description}}
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card class="myCard" *ngFor="let cat of cats; index as i">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{cats[i].name}}</mat-card-title>
+                <mat-card-subtitle>{{cats[i].race}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.focus.it/images/2021/11/16/gatto_1020x680.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+                    {{cats[i].description}}
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
 </section>
