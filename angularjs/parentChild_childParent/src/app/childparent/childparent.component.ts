@@ -17,8 +17,7 @@ export class ChildparentComponent implements OnInit {
     {name: "Davide", age: "30"}
   ]
   
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   sendData() {
     this.getDataOut.emit(this.obj)
