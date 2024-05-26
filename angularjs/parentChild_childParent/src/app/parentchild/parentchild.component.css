@@ -36,3 +36,7 @@ div {
     background-color: red;
     vertical-align: middle;
 }
+
+#options p {
+    display: inline-block;
+}
