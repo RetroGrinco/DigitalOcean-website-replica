@@ -1,0 +1,60 @@
+section#header div#header-top {
+    background-color: beige;
+    width: 80%;
+    padding: 1em 10%;
+    text-align: center;
+}
+
+section#header div#header-top h1 {
+    font-size: 2em;
+}
+
+section#header div#header-bottom {
+    background-color: lightgrey;
+    width: 80%;
+    padding: 1em 10%;
+    text-align: center;
+}
+
+section#header div#header-bottom a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+}
+
+section#header div#header-bottom a:hover {
+    text-decoration: underline;
+}
+
+section#footer {
+    width: 100%;
+    background-color: beige;
+}
+
+section#footer div#leftList,
+section#footer h2,
+section#footer div#rightList {
+    display: inline-block;
+    width: 23.33%;
+    padding: 1em 5%;
+    text-align: center;
+}
+
+section#footer div#leftList ul li,
+section#footer div#rightList ul li {
+    list-style: none;
+    padding: 1em 0;
+}
+
+section#footer div#leftList ul li:hover,
+section#footer div#rightList ul li:hover {
+    cursor: pointer;
+    color: lightgrey;
+    transition: .2s;
+}
+
+section#footer h2 {
+    vertical-align: top;
+    font-size: 2em;
+}
