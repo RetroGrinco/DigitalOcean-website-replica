@@ -1,0 +1,25 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th scope="col">Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Fiscal Code</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Province</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (user of users; track user.email; let i = $index) {
+
+    <app-user [counter]=i [user]=user></app-user>
+
+    }
+    @empty {
+    <tr>
+      <td colspan="7" style="text-align: center;">NO DATA</td>
+    </tr>
+    }
+  </tbody>
+</table>
