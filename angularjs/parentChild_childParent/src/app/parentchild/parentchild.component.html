@@ -1,5 +1,0 @@
-<div appSomeAction *ngFor="let person of data" [ngClass]="{'lightblue': person.gender === 'male', 'pink': person.gender === 'female'}" >
-    <p>{{person.name}} {{person.surname}} {{person.age}}</p>
-    <span [ngClass]="{'online': person.status, 'offline': !person.status}" ></span>
-</div>
-

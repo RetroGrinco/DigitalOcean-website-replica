@@ -1,6 +1,0 @@
-Il progetto riprende le basi apprese dai corsi presenti su youtube, cercando di usare gli strumenti di uso quotidiano del framework.
-Come prima cosa ho creato l'header ma nella struttura creata ho fatto un errore (che lascerò li per capire dove ho sbagliato in futuro)
-Il component toolbar (gia il nome e'sbagliato perche avrei dovuto scrivere header) presenta tutta la struttura della header cosa che secondo me e' sbagliata visto che i components servono principalmente a richiamare porzioni di codice che deve essere riutilizzato
-
-
-The project builds upon the basics learned from YouTube courses, aiming to utilize the framework's everyday tools. Firstly, I created the header, but I made a mistake in the structure (which I'll leave there to understand where I went wrong in the future). The toolbar component (already the name is wrong because I should have written header) contains the entire structure of the header, which, in my opinion, is incorrect since components are mainly meant to call portions of code that should be reused.
